@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UISupportedInterfaceOrientations~iphone</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>This app will always use your phone&apos;s location.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>This app will usage your location.</string>
+	<key>UIApplicationSceneManifest</key>
+	<dict>
+		<key>UIApplicationSupportsMultipleScenes</key>
+		<false/>
+		<key>UISceneConfigurations</key>
+		<dict>
+			<key>UIWindowSceneSessionRoleApplication</key>
+			<array>
+				<dict>
+					<key>UISceneConfigurationName</key>
+					<string>Default Configuration</string>
+					<key>UISceneDelegateClassName</key>
+					<string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
+					<key>UISceneStoryboardFile</key>
+					<string>Main</string>
+				</dict>
+			</array>
+		</dict>
+	</dict>
+    <key>NINJAS_API_KEY</key>
+    <string>$(NINJAS_API_KEY)</string>
+    <key>FIXER_API_KEY</key>
+    <string>$(FIXER_API_KEY)</string>
+    <key>OPENWEATHER_API_KEY</key>
+    <string>$(OPENWEATHER_API_KEY)</string>
+    <key>DEEPL_API_KEY</key>
+    <string>$(DEEPL_API_KEY)</string>
+</dict>
+</plist>
